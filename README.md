@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-business-processes/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-business-processes" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-business-processes">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-business-processes" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-business-processes">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-business-processes" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-business-processes">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-business-processes" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Business Processes
 
