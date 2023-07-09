@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/BombenProdukt/laravel-business-processes",
+    "homepage": "https://github.com/faustbrian/laravel-business-processes",
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^10.0",
