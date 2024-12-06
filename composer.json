@@ -1,0 +1,66 @@
+{
+    "name": "basecodeoy/laravel-business-processes",
+    "description": "A package to model business processes in Laravel.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "BaseCode Oy",
+        "laravel",
+        "laravel-business-processes"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/basecodeoy/laravel-business-processes",
+    "support": {
+        "issues": "https://github.com/basecodeoy/laravel-business-processes/issues",
+        "source": "https://github.com/basecodeoy/laravel-business-processes",
+        "security": "https://github.com/basecodeoy/laravel-business-processes/blob/main/.github/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.3",
+        "basecodeoy/crate": "^1.0.0",
+        "illuminate/contracts": "^11.0"
+    },
+    "require-dev": {
+        "basecodeoy/standards": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCodeOy\\BusinessProcess\\": "src",
+            "BaseCodeOy\\BusinessProcess\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "audit": {
+            "abandoned": "report"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "BusinessProcess": "BaseCodeOy\\BusinessProcess\\Facades\\BusinessProcess"
+            },
+            "providers": [
+                "BaseCodeOy\\BusinessProcess\\ServiceProvider"
+            ]
+        }
+    }
+}

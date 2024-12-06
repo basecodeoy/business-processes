@@ -1,0 +1,26 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method Illuminate\\\\Support\\\\Str\\:\\:of\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Fixtures/ToSnakeCase.php
+
+		-
+			message: "#^Cannot call method toString\\(\\) on mixed\\.$#"
+			count: 1
+			path: tests/Fixtures/ToString.php
+
+		-
+			message: "#^Parameter \\#1 \\$passable \\(Illuminate\\\\Support\\\\Stringable\\) of method Tests\\\\Fixtures\\\\ToUpperCase\\:\\:handle\\(\\) should be contravariant with parameter \\$passable \\(mixed\\) of method BaseCodeOy\\\\BusinessProcess\\\\TaskInterface\\:\\:handle\\(\\)$#"
+			count: 1
+			path: tests/Fixtures/ToUpperCase.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
